@@ -1,5 +1,7 @@
 # ACFAutomation
-In my ACF (Applied Corporate Finance) class taught by Prof Jiro Kondo, we learned how to use the structure of binomial options pricing to valuate a project with uncertain future cashflows. It takes on average 2 hours to do the valuation in excel so I thought I would give it a try to automate this process. There are many online resources on the math behind Binomial Option Pricing, but I don't see anything about Future Cashflow on Corporate projects' valuation yet. 
+In my ACF (Applied Corporate Finance) class taught by Prof Jiro Kondo, we learned how to use the structure of binomial options pricing to valuate a project with uncertain future cashflows. 
+
+It takes me on average 1.5 hours to do the valuation in excel and by hand so I thought I would give it a try to automate this process. 
 
 Please check out the math and theory behind this valuation model here: https://www.researchgate.net/figure/Calculation-process-on-revised-binomial-lattice-model-with-parallel-option_fig4_281434195
 
