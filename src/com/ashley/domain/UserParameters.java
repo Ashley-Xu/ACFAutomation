@@ -12,9 +12,9 @@ public class UserParameters {
 	private double CoO; 
 	private double SL; 
 	private RealOption[] realOptions;
-	//private int options;
+
 	
-	public UserParameters(int n, int t, double PoC_0, double sigma, double rf, double PoP_0, double AoC, double CoO, RealOption[] realOptions) { // removed input int options
+	public UserParameters(int n, int t, double PoC_0, double sigma, double rf, double PoP_0, double AoC, double CoO, RealOption[] realOptions) { 
 		super();
 		this.n = n;
 		this.T = t;
@@ -25,7 +25,6 @@ public class UserParameters {
 		this.AoC = AoC;
 		this.CoO = CoO;
 		this.realOptions = realOptions;
-		//this.options = options;
 	}
 	
 	public int getN() {
@@ -106,17 +105,6 @@ public class UserParameters {
 	public void setCoO(double coO) {
 		CoO = coO;
 	}
-
-//
-//
-//	public int getOptions() {
-//		return options;
-//	}
-//
-//
-//	public void setOptions(int options) {
-//		this.options = options;
-//	}
 
 	public RealOption[] getRealOptions() {
 		return realOptions;
